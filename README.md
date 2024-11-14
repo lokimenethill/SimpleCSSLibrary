@@ -1,0 +1,1 @@
+This is a simple CSS library to start projects where it's not necessary very complex frameworks like vuetify, bootstrap, etc. The paradigm of this project is a library easy to customize, simple to implement, lightweight, and beauty. made with <3 for lokimenethill.
