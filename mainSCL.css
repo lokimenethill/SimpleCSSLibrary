@@ -617,6 +617,17 @@ th {
   text-align: center;
   position: fixed;
 }
+.notification{
+  padding: var(--padding-controls);
+  background-color: var(--white-alt-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 
 /* Extras */
 p{
@@ -649,4 +660,15 @@ a:hover{
 }
 a:visited{
   color: var(--red-color);
+}
+
+.cross {
+  list-style: none;
+  display: flex;
+}
+
+.cross::after {
+  list-style: none;
+  display: flex;
+  content: 'x';
 }
