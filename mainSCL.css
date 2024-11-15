@@ -573,6 +573,28 @@ img{
   display: inline-block;
   overflow: hidden;
 }
+
+/* tables styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: var(--radius-controls);
+  overflow: hidden;
+  box-shadow: 0 2px 10px var(--black-alt-color); 
+  border: 1px solid var(--primary-alt-color);
+}
+
+th, td {
+  padding: var(--padding-controls);
+  text-align: left;
+  border-bottom: 1px solid var(--primary-alt-color);
+}
+
+th {
+  background-color: var(--secondary-alt-color);
+  color: var(--white-color);
+}
+
 /* Extras */
 p{
   overflow: hidden;
@@ -583,7 +605,7 @@ p{
   padding: 15px; 
   border-radius: var(--radius-controls);
   overflow: auto; 
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 10px var(--black-alt-color); 
   border: 1px solid var(--primary-alt-color);
 }
 
@@ -594,3 +616,4 @@ pre {
 code {
   font-family: 'Courier New', Courier, monospace; 
 }
+
