@@ -437,7 +437,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--black-color);
+  background-color: var(--secondary-alt-color);
   padding: 10px 20px;
   position: fixed;
   width: 98dvw;
@@ -468,15 +468,16 @@
   text-decoration: none;
   padding: 8px 16px;
   transition: background-color 0.3s;
+  border-radius: var(--radius-controls);
 }
 
 .nav-links a:hover {
   background-color: var(--secondary-color);
-  border-radius: 4px;
+  border-radius: var(--radius-controls);
 }
 
 .footer {
-  background-color: var(--black-color);
+  background-color: var(--secondary-alt-color);
   color: var(--white-color);
   padding: 20px;
   margin-bottom: -10px;
