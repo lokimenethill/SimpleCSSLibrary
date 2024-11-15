@@ -14,6 +14,11 @@
   --yellow-alt-color: #5C5400;
   --black-alt-color: #000000;
   --white-alt-color: #EBDEC5;
+  /* button custom style */
+  --btn-left-style: dotted;
+  --btn-right-style: dashed;
+  --btn-left-edge: 8px;
+  --btn-right-edge: 8px; /*<<- you can hide the border with 0px */
   /* controls variables */
   --padding-controls: 10px;
   --radius-controls: 8px;
@@ -55,6 +60,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-secondary{
   background-color: var(--secondary-color);
@@ -62,6 +69,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-red{
   background-color: var(--red-color);
@@ -69,6 +78,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-yellow{
   background-color: var(--yellow-color);
@@ -76,6 +87,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-black{
   background-color: var(--black-color);
@@ -83,6 +96,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-white{
   background-color: var(--white-color);
@@ -90,6 +105,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--black-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--black-alt-color);
 }
 
 .btn-primary:hover{
@@ -98,6 +115,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-secondary:hover{
   background-color: var(--secondary-alt-color);
@@ -105,6 +124,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-red:hover{
   background-color: var(--red-alt-color);
@@ -112,6 +133,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-yellow:hover{
   background-color: var(--yellow-alt-color);
@@ -119,6 +142,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-black:hover{
   background-color: var(--black-alt-color);
@@ -126,6 +151,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
 }
 .btn-white:hover{
   background-color: var(--white-alt-color);
@@ -133,6 +160,8 @@
   border: 1px;
   border-radius: var(--radius-controls);
   padding: var(--padding-controls);
+  border-left: var(--btn-left-edge) var(--btn-left-style) var(--black-alt-color);
+  border-right: var(--btn-right-edge) var(--btn-right-style) var(--black-alt-color);
 }
 /* form controls */
 
