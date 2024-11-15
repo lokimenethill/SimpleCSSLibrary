@@ -527,7 +527,53 @@ img{
   max-width: var(--relation-width-size-image);
   max-height: var(--relation-height-size-image);
 }
+.gradient {
+  mask-image: linear-gradient(black 80%, transparent);
+}
+.fade{
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.5;
+}
+.fade:hover{
+  opacity: 1;
+}
 
+.shake {
+  transition: transform 0.2s;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 0); }
+  25% { transform: translate(-1px, 0); }
+  50% { transform: translate(1px, 0); }
+  75% { transform: translate(-1px, 0); }
+  100% { transform: translate(0, 0); }
+}
+
+.shake:hover {
+  animation: shake 0.5s; /* Duración de la animación */
+}
+
+.blur{
+  filter: blur(5px);
+}
+
+.deblur{
+  filter: blur(5px);
+  transition:filter 0.5s ease-in-out;
+}
+.deblur:hover{
+  filter: blur(0px);
+}
+.rounded{
+  border-radius: var(--radius-controls);
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+/* Extras */
 p{
   overflow: hidden;
   text-overflow: ellipsis; 
