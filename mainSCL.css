@@ -67,6 +67,7 @@
   padding: var(--padding-controls);
   border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
   border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
+  transition: background-color 0.4s;
 }
 .btn-secondary{
   background-color: var(--secondary-color);
@@ -76,6 +77,7 @@
   padding: var(--padding-controls);
   border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
   border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
+  transition: background-color 0.4s;
 }
 .btn-red{
   background-color: var(--red-color);
@@ -85,6 +87,7 @@
   padding: var(--padding-controls);
   border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
   border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
+  transition: background-color 0.4s;
 }
 .btn-yellow{
   background-color: var(--yellow-color);
@@ -94,6 +97,7 @@
   padding: var(--padding-controls);
   border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
   border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
+  transition: background-color 0.4s;
 }
 .btn-black{
   background-color: var(--black-color);
@@ -103,6 +107,7 @@
   padding: var(--padding-controls);
   border-left: var(--btn-left-edge) var(--btn-left-style) var(--white-alt-color);
   border-right: var(--btn-right-edge) var(--btn-right-style) var(--white-alt-color);
+  transition: background-color 0.4s;
 }
 .btn-white{
   background-color: var(--white-color);
@@ -112,6 +117,7 @@
   padding: var(--padding-controls);
   border-left: var(--btn-left-edge) var(--btn-left-style) var(--black-alt-color);
   border-right: var(--btn-right-edge) var(--btn-right-style) var(--black-alt-color);
+  transition: background-color 0.4s;
 }
 
 .btn-primary:hover{
@@ -594,6 +600,23 @@ th {
   background-color: var(--secondary-alt-color);
   color: var(--white-color);
 }
+.comboB{
+  border-bottom: 1px solid var(--primary-alt-color);
+  box-shadow: var(--black-alt-color);
+  padding: 30px;
+  left: 40%;
+  text-align: center;
+  position: static;
+}
+.alert{
+  border-bottom: 1px solid var(--primary-alt-color);
+  background-color: var(--white-color);
+  box-shadow: var(--black-alt-color);
+  left: 25%;
+  display: auto;
+  text-align: center;
+  position: fixed;
+}
 
 /* Extras */
 p{
@@ -617,3 +640,13 @@ code {
   font-family: 'Courier New', Courier, monospace; 
 }
 
+a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+a:hover{
+  text-decoration: underline;
+}
+a:visited{
+  color: var(--red-color);
+}
