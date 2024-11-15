@@ -297,7 +297,7 @@
 
 /* Style the indicator (dot/circle) */
 .container-radio .checkmark:after {
- 	top: 6.5px;
+ 	top: 6.2px;
 	left: 6px;
 	width: 8px;
 	height: 8px;
@@ -363,7 +363,7 @@
   /* Style the checkmark-chkbox/indicator */
   .container-chkbox .checkmark-chkbox:after {
     left: 6px;
-    top: 2.5px;
+    top: 1px;
     width: 5px;
     height: 10px;
     border: solid var(--white-color);
