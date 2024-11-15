@@ -15,7 +15,7 @@
   --black-alt-color: #000000;
   --white-alt-color: #EBDEC5;
   /* button custom style */
-  --btn-left-style: dotted;
+  --btn-left-style: dotted;/* you can change the button border style to solid,dashed or dotted */
   --btn-right-style: dashed;
   --btn-left-edge: 8px;
   --btn-right-edge: 8px; /*<<- you can hide the border with 0px */
@@ -26,6 +26,11 @@
   --main-layer-color: #FFFFFF;
   /* change 1px to 0px to hide the border */
   --main-layer-border: 1px solid var(--black-alt-color);
+
+  /* image styles variables */
+  --relation-width-size-image: 15dvw;
+  --relation-height-size-image: 30dvh;
+
 }
 /* scrollbar & generals styles */
 * {
@@ -452,11 +457,13 @@
   border-radius: var(--radius-controls);
   padding: 20px;
   background-color: var(--main-layer-color);
-
+  overflow: hidden;
+  text-overflow: ellipsis; 
   display: grid;
   min-height: 100dvh;
   grid-template-rows: auto 1fr auto;
-  
+  margin-bottom: 2dvh;
+  margin-top: 2dvh;
 }
 .content-layer {
   padding-top: 3dvh;
@@ -513,4 +520,15 @@
   margin-left: -10px;
   margin-right: -8px;
   margin-top: 20px;
+}
+/* end of the layers styles */
+/* image styles and animations*/
+img{
+  max-width: var(--relation-width-size-image);
+  max-height: var(--relation-height-size-image);
+}
+
+p{
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
